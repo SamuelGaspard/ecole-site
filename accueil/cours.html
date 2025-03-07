@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours</title>
+    <link rel="stylesheet" href="./cours.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <img class="logo" src="./assets/OIP-removebg-preview.png" alt="">
+            <ul class="nav-links">
+                <li><a href="../accueil/accueil.html">Accueil</a></li>
+                <li><a href="../formation/formation.html">formation</a></li>
+                <li><a href="https://websim.ai/ecole-numerique/#contact">Ecole 241</a></li>
+                <li><a href="./cours.html">Cours</a></li>
+                <li><a href="../accueil/dev.html">inscription</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="dashboard">
+            <aside class="sidebar">
+                <ul>
+                    <li><a href="#dashboard" class="active">Tableau de bord</a></li>
+                    <li><a href="#courses">Mes cours</a></li>
+                    <li><a href="#assignments">Mes devoirs</a></li>
+                    <li><a href="#grades">Mes notes</a></li>
+                    <li><a href="#resources">Ressources</a></li>
+                    <li><a href="#forum">Forum</a></li>
+                    <li><a href="#profile">Mon profil</a></li>
+                </ul>
+            </aside>
+            <section class="content">
+                <h1>Bienvenue sur votre plateforme d'apprentissage</h1>
+                <p>Suivez vos progrès, accédez à vos cours, devoirs et notes. Bonne formation !</p>
+                
+                <h2>Mes cours en cours</h2>
+                <div class="course-list">
+                    <div class="course-card">
+                        <img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="HTML & CSS Fundamentals">
+                        <div class="course-card-content">
+                            <h3>HTML & CSS Fundamentals</h3>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%;"></div>
+                            </div>
+                            <p>Progression : 60%</p>
+                            <a href="#course1" class="btn">Continuer</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="JavaScript Basics">
+                        <div class="course-card-content">
+                            <h3>JavaScript Basics</h3>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 30%;"></div>
+                            </div>
+                            <p>Progression : 30%</p>
+                            <a href="#course2" class="btn">Continuer</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Introduction to React">
+                        <div class="course-card-content">
+                            <h3>Introduction to React</h3>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 0%;"></div>
+                            </div>
+                            <p>Progression : 0%</p>
+                            <a href="#course3" class="btn">Commencer</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="assignments">
+                    <h2>Devoirs à rendre</h2>
+                    <div class="assignment-card">
+                        <h3>Projet HTML/CSS - Portfolio personnel</h3>
+                        <p>Date limite : 15/06/2023</p>
+                        <a href="#assignment1" class="btn">Voir les détails</a>
+                    </div>
+                    <div class="assignment-card">
+                        <h3>Quiz JavaScript - Fonctions et objets</h3>
+                        <p>Date limite : 20/06/2023</p>
+                        <a href="#assignment2" class="btn">Commencer le quiz</a>
+                    </div>
+                </div>
+
+                <div class="grades">
+                    <h2>Mes dernières notes</h2>
+                    <div class="grade-card">
+                        <h3>HTML & CSS Fundamentals - Quiz 1</h3>
+                        <p>Note : 18/20</p>
+                    </div>
+                    <div class="grade-card">
+                        <h3>JavaScript Basics - Projet intermédiaire</h3>
+                        <p>Note : 16/20</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+    <div class="container">
+        <p>&copy; 2023 École 241 Gabon. Tous droits réservés.</p>
+        <p>Suivez-nous sur les réseaux sociaux pour rester informé de nos dernières actualités et événements.</p>
+    </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Plateforme d\'apprentissage chargée');
+            
+            // Animation des barres de progression
+            const progressBars = document.querySelectorAll('.progress');
+            progressBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 300);
+            });
+
+            // Ajout d'effets hover sur les cartes
+            const cards = document.querySelectorAll('.course-card, .assignment-card, .grade-card');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.transform = 'scale(1.03)';
+                });
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

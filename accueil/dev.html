@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dev.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <img class="logo" src="./assets/OIP-removebg-preview.png" alt="">
+            <ul class="nav-links">
+                <li><a href="../accueil/accueil.html">Accueil</a></li>
+                <li><a href="../formation/formation.html">formation</a></li>
+                <li><a href="https://websim.ai/ecole-numerique/#contact">Ecole 241</a></li>
+                <li><a href="../accueil/cours.html">Cours</a></li>
+                <li><a href="./dev.html">inscription</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1><span class="animate-charcter">Postuler à la Formation développeurs Web</span></h1>
+
+        <section class="program-info">
+            <h2>Postuler au Programme Développement Web</h2>
+            <p>Le programme de Développement Web Full Stack de l'École 241 est conçu pour vous former aux technologies les plus demandées dans l'industrie. Vous apprendrez à maîtriser le développement front-end et back-end, ainsi que les outils et méthodologies essentiels pour devenir un développeur web complet.</p>
+            <h3>Ce que vous apprendrez :</h3>
+            <ul>
+                <li>HTML5, CSS3, et JavaScript moderne</li>
+                <li>Frameworks front-end (React, Vue.js)</li>
+                <li>Node.js et Express.js pour le back-end</li>
+                <li>Bases de données SQL et NoSQL</li>
+                <li>Gestion de versions avec Git</li>
+                <li>Méthodologies Agile et DevOps</li>
+            </ul>
+        <h3>Prérequis :</h3>
+         <p>Durée de la formation : 9mois</p>
+         <li> Passion pour la technologie et le développement web</li>
+         <li> Compétences de base en informatique</li>
+         <li> Capacité à travailler en équipe et à résoudre des problèmes</li>
+         <li> Motivation à apprendre et à progresser rapidement</li>
+        </section>
+
+        <section class="application-form">
+            <h2>Formulaire de candidature</h2>
+            <form id="application-form">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse e-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Numéro de téléphone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="education">Niveau d'études</label>
+                    <select id="education" name="education" required>
+                        <option value="">Sélectionnez votre niveau d'études</option>
+                        <option value="bac">Baccalauréat</option>
+                        <option value="licence">Licence</option>
+                        <option value="master">Master</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+                <button type="submit">Envoyer ma candidature</button>
+            </form>
+            <div id="qrcode">
+                <h3 class="qr-title">Votre QR Code d'inscription</h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 École 241 Gabon. Tous droits réservés.</p>
+            <p>Suivez-nous sur les réseaux sociaux pour rester informé de nos dernières actualités et événements.</p>
+        </div>
+        </footer>
+<!-- <script src="./ins-ui-ux.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="./dev.js"></script>
+
+</body>
+</html>
