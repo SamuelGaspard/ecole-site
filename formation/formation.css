@@ -31,7 +31,7 @@ header {
 }
 
 header.scrolled {
-    background-color: rgba(153, 0, 0, 0.9);
+    background-color: rgba(73, 121, 153, 0.9);
 }
 
 nav {
@@ -171,7 +171,7 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     transform: scale(1);
-    border: 2 solid rgba(153, 0, 0, 0.9);
+    border: 2 solid rgba(16, 83, 95, 0.9);
   }
   .matiere-block:hover {
     transform: scale(1.05);
