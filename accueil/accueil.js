@@ -22,28 +22,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // News rotation
     const newsItems = [
         {
-            title: "Succès retentissant au Hackathon National 2023",
-            content: "Les étudiants de l'École 241 ont brillé lors du dernier hackathon national, remportant les trois premières places avec leurs projets innovants.",
+            title: "Succès retentissant au Hackathon National 2025",
+            content: "Les étudiants de l'École du congo ont brillé lors du dernier hackathon national, remportant les trois premières places avec leurs projets innovants.",
             image: "./assets/hakathon.jpg"
         },
         {
             title: "Nouveaux partenariats avec des entreprises tech",
-            content: "L'École 241 a signé des accords avec 5 nouvelles entreprises tech gabonaises pour offrir des stages et des opportunités d'emploi à nos diplômés.",
+            content: "L'École du congo a signé des accords avec 5 nouvelles entreprises tech gabonaises pour offrir des stages et des opportunités d'emploi à nos diplômés.",
             image: "./assets/partenaire.jpg"
         },
         {
             title: "Lancement du programme Intelligence Artificielle",
-            content: "En réponse à la demande croissante, l'École 241 lance un nouveau programme de formation en Intelligence Artificielle et Machine Learning.",
+            content: "En réponse à la demande croissante, l'École du congo lance un nouveau programme de formation en Intelligence Artificielle et Machine Learning.",
             image: "./assets/2017-09-29-09-52-20.jpg"
         },
         {
             title: "Journée portes ouvertes virtuelle",
-            content: "Découvrez l'École 241 depuis chez vous ! Participez à notre journée portes ouvertes virtuelle et explorez nos programmes de formation.",
+            content: "Découvrez l'Écoledu congo depuis chez vous ! Participez à notre journée portes ouvertes virtuelle et explorez nos programmes de formation.",
             image: "./assets/out-0.png"
         },
         {
             title: "Conférence sur la transformation digitale au Gabon",
-            content: "L'École 241 organise une conférence sur les enjeux et opportunités de la transformation digitale au Gabon, avec des intervenants de renom.",
+            content: "L'École du congo organise une conférence sur les enjeux et opportunités de la transformation digitale au Gabon, avec des intervenants de renom.",
             image: "./assets/conference.jpg"
         }
     ];
