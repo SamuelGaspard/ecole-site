@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
-    --primary-color:rgb(99, 154, 206);
+    --primary-color:rgb(90, 182, 221);
     --secondary-color: #490404d7 ;
     --accent-color: #ffffff;
     --text-color: #000000;
@@ -78,7 +78,7 @@ nav {
 }
 
 .hero {
-    background: linear-gradient(rgba(26, 102, 138, 0.705), rgba(10, 10, 10, 0.74)), url('./assets/OIP.jpg') no-repeat center center;
+    background: linear-gradient(rgba(63, 110, 141, 0.705), rgba(10, 10, 10, 0.74)), url('./assets/OIP.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 100vh;
